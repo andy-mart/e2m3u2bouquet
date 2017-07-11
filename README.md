@@ -9,6 +9,7 @@ usage: e2m3u2bouquet.py [-h] [-m M3UURL] [-e EPGURL] [-d1 DELIMITER_CATEGORY]
                         [-d4 DELIMITER_LOGOURL] [-n PROVIDERNAME]
                         [-u USERNAME] [-p PASSWORD] [-i] [-s] [-P]
                         [-q ICONPATH] [-U] [-V]
+                        [-s SERVICE_ID]
 
 e2m3u2bouquet.e2m3u2bouquet -- Enigma2 IPTV m3u to bouquet parser
 
@@ -32,6 +33,9 @@ optional arguments:
   -q ICONPATH, --iconpath ICONPATH
                         Option path to store picons, if not supplied defaults
                         to /usr/share/enigma2/picon/
+  -d SERVICEID, --serviceid SERVICEID
+                        Option to allow multiple IPTV services at the same time
+                        without overwriting each other
   -U, --uninstall       Uninstall all changes made by this script
   -V, --version         show program's version number and exit
 
